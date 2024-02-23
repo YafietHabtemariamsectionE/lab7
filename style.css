@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(247, 123, 123);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    width: 360px;
+    text-align: center;
+}
+
+#inputfield {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+
+#addtodo {
+    height: 50px;
+    width: 50px;
+    background: cornflowerblue;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+#todocontainer {
+
+    margin-top: 20px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
